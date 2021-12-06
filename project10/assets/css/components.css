@@ -1,0 +1,24 @@
+/* removes style of list from site nav */
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.my-list {
+    list-style: none;
+    /* brings the list points either in or out the element */
+    list-style-position: inside;
+
+}
+
+.my-img {
+    width:200px;
+}

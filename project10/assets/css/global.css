@@ -1,0 +1,46 @@
+*, *::after, *::before {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* * doesn't select the psuedo elements*/
+
+
+html, body {
+height:100%;
+/* anything inside body will work for the overall page eg. height of h1 50% of 100% of html,body */
+font-family: 'Open Sans', sans-serif;
+background:#7fff00;
+}
+
+@media(max-width:700px) {
+    /*up to 700px i want you to apply this styling*/
+body {
+    background: #ff7f50;
+}
+
+h1 {
+    color: #fff;
+}
+}
+
+@media(min-width:700px) {
+    /*i want you to apply this stlying for screens larger than 700px*/
+    body {
+        background:#7fff00;
+    }
+    h1 {
+        color:#000;
+    }
+}
+
+@media(min-width:500px) and (max-width:900px) {
+    body {
+        background:#2262d9;
+    }
+
+    h1 {
+        color:#000;
+    }
+}
